@@ -4176,6 +4176,10 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
   line-height: 30px;
 }
+.team-one__name.edit{
+  font-size: 20px;
+}
+
 
 .team-one__name a {
   color: var(--insur-black);
@@ -11380,6 +11384,15 @@ ul {
 .team-page .team-one__single {
   margin-bottom: 43px;
 }
+.wow.edits{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width:600px) {
+  .team-page .team-one__single.edits{
+    width: 50%;
+  }
+}
 
 /*--------------------------------------------------------------
 # Team Page Carousel
@@ -12524,6 +12537,10 @@ body.boxed-wrapper {
   display: flex;
   justify-content: center;
 }
+.dis-jus-cen.edit{
+  flex-direction: column;
+  text-align: center;
+}
 
 .padd-28 {
   padding-bottom: 28px;
@@ -12572,3 +12589,24 @@ body.boxed-wrapper {
   justify-content: center;
   margin: 30px 0px 70px 0px;
 }
+
+/*-------------placement section in about.html---------------*/
+.team-one__single.plmt{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.team-one__img.plmt{
+  width: 70%;
+}
+
+.team-one__content.plmt{
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5px;
+}
+.dis-jus-cen.plmt{
+  justify-content: left;
+}
+/*-------------placement section in about.html---------------end*/
